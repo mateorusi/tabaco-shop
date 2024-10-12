@@ -1,0 +1,33 @@
+.titulli1 {
+  font-size: 64px;
+  color: rgb(208, 203, 203);
+  font-family: "Times New Roman", Times, serif;
+  text-shadow: 3px 3px 10px green;
+
+  text-align: center;
+  margin-top: 210px;
+}
+body {
+  background-image: url("loggin.webp");
+  background-size: cover;
+}
+.dritarja {
+  background-color: transparent;
+  margin-top: 64px;
+}
+.inputi {
+  border-radius: 10px;
+  border-style: hidden;
+  height: 30px;
+  box-decoration-break: slice;
+}
+.btn {
+  background-color: rgb(117, 174, 32);
+  border-style: hidden;
+}
+.forgot {
+  color: aliceblue;
+  font-size: small;
+  margin-top: 500px;
+  text-decoration: none;
+}
