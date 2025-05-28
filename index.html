@@ -59,7 +59,7 @@
         <div class="row navig">
           <div class="col-12">
             <div class="bari">
-              <a class="linku" href="/">Cigars</a>
+              <a class="linku" href="cigarss.html">Cigars</a>
               <a class="linku" href="cigarsaccesories.html"
                 >Cigars Accessories
               </a>
@@ -78,7 +78,7 @@
           <div class="col-4 my-3">
             <div class="card">
               <img class="foto" src="cigars.jpeg" alt="error" />
-              <a class="shkrimi" href="/">Cigars</a>
+              <a class="shkrimi" href="cigarss.html">Cigars</a>
             </div>
           </div>
           <div class="col-4 my-3">
@@ -141,7 +141,13 @@
   </body>
   <script>
     document.querySelector(".trevijkat").addEventListener("click", () => {
-      document.querySelector(".bari").classList.add("open");
+      document.querySelector(".bari").classList.toggle("open");
     });
+    fetch("http://127.0.0.1:8000/")
+      .then((response) => response.json())
+      .then((body) => console.log(body));
   </script>
 </html>
+<div>
+  <video src="welcome.gif"></video>
+</div>
