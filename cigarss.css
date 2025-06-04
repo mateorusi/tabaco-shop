@@ -1,0 +1,214 @@
+.shiriti {
+  background-image: url(background.jpeg);
+  height: 32px;
+  color: white;
+  border-radius: 10px;
+}
+.igjithi {
+  background-image: url(background.jpeg);
+  background-size: cover;
+  align-items: center;
+  min-width: 100wh;
+}
+.fbicon {
+  height: 20px;
+  align-items: center;
+  column-gap: 0px;
+  color: blueviolet;
+}
+.personicon {
+  height: 28px;
+  margin-top: 1px;
+}
+.pamja {
+  justify-content: end;
+  display: flex;
+}
+.english {
+  color: #444;
+  padding-left: 12px;
+}
+.ikonka {
+  height: 28px;
+  padding-left: 24px;
+  color: white;
+}
+.shopicon {
+  height: 28px;
+  padding-left: 12px;
+  color: aliceblue;
+}
+.ikona {
+  display: flex;
+  justify-content: end;
+}
+.titulli {
+  font-size: 64px;
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verda, sans-serif;
+  font-weight: 700;
+  text-align: center;
+  text-shadow: 3px 1px 6px goldenrod;
+}
+.bari {
+  justify-content: center;
+  display: flex;
+  background-color: transparent;
+}
+.linku {
+  display: block;
+  padding: 20px;
+  font-size: small;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  color: white;
+}
+.navig {
+  background-color: transparent;
+  border-radius: 15px;
+  color: white;
+}
+.foto {
+  height: 240px x 240px;
+  object-fit: cover;
+  display: inline-block;
+  background-color: transparent;
+}
+.shkrimi {
+  bottom: 8px;
+  left: 16px;
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  background-color: gold;
+}
+.Hyrje {
+  color: black;
+  position: absolute;
+  text-align: center;
+  position: static;
+  font-size: 36px;
+  margin-top: 20px;
+  font-family: "Times New Roman", Times, serif;
+  text-shadow: 5px 5px 10px red;
+}
+.textnewproduct {
+  color: white;
+  position: absolute;
+  text-align: center;
+  position: static;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  font-size: 60px;
+  font-family: fantasy;
+  text-shadow: 3px 1px 10px black;
+}
+.foto1 {
+  height: 240px x 240px;
+  object-fit: cover;
+  display: inline-block;
+}
+.foto3 {
+  height: 240px x 240px;
+  object-fit: cover;
+  display: inline-block;
+}
+.foto4 {
+  height: 240px x 240px;
+  object-fit: cover;
+  display: inline-block;
+}
+.shkrimi1 {
+  bottom: 8px;
+  left: 16px;
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  background-color: gold;
+}
+.shkrimi2 {
+  bottom: 8px;
+  left: 16px;
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  background-color: gold;
+}
+.shkrimi3 {
+  bottom: 8px;
+  left: 16px;
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  background-color: gold;
+}
+.parafundi {
+  background-color: silver;
+  height: 10px;
+  margin-top: 50px;
+}
+.fundi {
+  background-color: transparent;
+  height: 50px;
+}
+.shkrimi4 {
+  color: azure;
+  position: absolute;
+  left: 1135px;
+  margin-top: 10px;
+  text-shadow: 2px 2px 8px gold;
+}
+.ikonat {
+  height: 20px;
+  align-items: center;
+  column-gap: 0px;
+}
+
+.card {
+  border: 20px;
+  background-color: transparent;
+}
+.cigacc {
+  font-size: 32px;
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verda, sans-serif;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 20px;
+}
+.butoni {
+  padding-top: 16px;
+  white-space: nowrap;
+  background-color: rgb(175, 165, 107);
+}
+.cmimi {
+  font-size: 25px;
+  color: green;
+  display: inline-block;
+}
+.butonka {
+  margin-left: 250px;
+  display: inline-block;
+}
+
+.linku:hover {
+  color: gold;
+}
+.cigacc {
+  font-size: 50px;
+  text-shadow: 1px 1px black;
+}
+hr {
+  height: 10px;
+}
+.viza {
+  background-color: gold;
+  height: 3px;
+  margin-bottom: 30px;
+}

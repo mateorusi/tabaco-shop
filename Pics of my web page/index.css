@@ -1,0 +1,232 @@
+.shiriti {
+  background-color: transparent;
+  height: 32px;
+  color: white;
+  border-radius: 10px;
+}
+body {
+  background-color: rgb(202, 220, 208);
+  position: relative;
+  position: sticky;
+  top: 0;
+  z-index: 2000;
+  background-color: lightgreen;
+}
+
+.fbicon {
+  height: 20px;
+  align-items: center;
+  column-gap: 0px;
+  color: blueviolet;
+}
+.personicon {
+  height: 28px;
+  margin-top: 1px;
+}
+.pamja {
+  justify-content: end;
+  display: flex;
+}
+.english {
+  color: #444;
+  padding-left: 12px;
+}
+.ikonka {
+  height: 28px;
+  padding-left: 24px;
+  color: white;
+}
+.shopicon {
+  height: 28px;
+  padding-left: 12px;
+  color: aliceblue;
+}
+.ikona {
+  display: flex;
+  justify-content: end;
+}
+.titulli {
+  font-size: 64px;
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verda, sans-serif;
+  font-weight: 700;
+  text-align: center;
+  text-shadow: 3px 1px 6px goldenrod;
+}
+.bari {
+  justify-content: center;
+  display: flex;
+  background-color: transparent;
+}
+.linku:hover {
+  color: gold;
+}
+.linku {
+  display: block;
+  padding: 20px;
+  font-size: small;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  color: white;
+}
+.navig {
+  background-color: transparent;
+  border-radius: 15px;
+  color: white;
+}
+.foto {
+  height: 240px;
+  object-fit: cover;
+  border-color: transparent;
+}
+.shkrimi {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  color: antiquewhite;
+  text-decoration: none;
+}
+.Hyrje {
+  color: black;
+  position: absolute;
+  text-align: center;
+  position: static;
+  font-size: 36px;
+  margin-top: 20px;
+  font-family: "Times New Roman", Times, serif;
+  text-shadow: 5px 5px 10px red;
+}
+.textnewproduct {
+  color: white;
+  position: absolute;
+  text-align: center;
+  position: static;
+  margin-top: 100px;
+  font-size: 50px;
+  font-family: fantasy;
+  text-shadow: 3px 1px 10px black;
+}
+.foto1 {
+  height: 240px x 240px;
+  object-fit: cover;
+  display: inline-block;
+}
+.foto3 {
+  height: 220px x 230px;
+  object-fit: cover;
+}
+.foto4 {
+  height: 240px x 240px;
+  object-fit: cover;
+}
+.shkrimi1 {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  color: antiquewhite;
+  text-decoration: none;
+}
+.shkrimi2 {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  color: rgb(62, 51, 77);
+  text-decoration: none;
+}
+.shkrimi3 {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  color: black;
+  text-decoration: none;
+}
+.parafundi {
+  background-color: silver;
+  height: 10px;
+  margin-top: 50px;
+}
+.fundi {
+  background-color: transparent;
+  height: 50px;
+}
+.shkrimi4 {
+  color: azure;
+  position: absolute;
+  left: 1135px;
+  margin-top: 10px;
+  text-shadow: 2px 2px 8px gold;
+}
+.ikonat {
+  height: 20px;
+  align-items: center;
+  column-gap: 0px;
+}
+#background-video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+.card {
+  border: none;
+}
+.search {
+  display: flex;
+}
+.searchinput {
+  width: 0;
+  background-color: transparent;
+  border: none;
+  transition: 0.3s ease;
+  margin-top: 24px;
+  outline: none;
+}
+.search:hover .searchinput {
+  width: initial;
+  background-color: white;
+}
+.trevijkat {
+  height: 26px;
+  color: aliceblue;
+  position: absolute;
+  right: 0;
+  fill: wheat;
+  top: 50%;
+  transform: translateY(-50%);
+  display: none;
+}
+@media only screen and (max-width: 720px) {
+  .trevijkat {
+    display: block;
+  }
+  .bari {
+    position: fixed;
+    width: 200px;
+    top: 0;
+    right: 0;
+    height: 100%;
+    background-color: black;
+    z-index: 1000;
+    flex-direction: column;
+    justify-content: flex-start;
+    transform: translateX(100%);
+    transition: 0.3s ease;
+  }
+  .open {
+    transform: translateX(0);
+  }
+  .iksi {
+    fill: antiquewhite;
+    height: 26px;
+    align-self: flex-end;
+    margin-top: 12px;
+    margin-right: 12px;
+    display: none;
+  }
+}

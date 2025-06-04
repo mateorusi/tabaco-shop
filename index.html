@@ -84,7 +84,7 @@
           <div class="col-4 my-3">
             <div class="card">
               <img class="foto" src="caca.jpeg" alt="error" />
-              <a class="shkrimi" href="/">Accessories</a>
+              <a class="shkrimi" href="cigarsaccesories.html">Accessories</a>
             </div>
           </div>
           <div class="col-4 my-3">
@@ -138,6 +138,63 @@
     <video id="background-video" autoplay loop muted poster="vid112.mp4">
       <source src="vid112.mp4" type="video/mp4" />
     </video>
+    <!-- Chatbot Widget -->
+    <div id="chatbot-widget">
+      <div id="chatbot-header" onclick="toggleChatbot()">💬 Ask AI</div>
+      <div id="chatbot-body">
+        <div id="chatbot-messages"></div>
+        <input
+          id="chatbot-input"
+          type="text"
+          placeholder="Type your question..."
+          onkeydown="if(event.key==='Enter'){sendMessage()}"
+        />
+        <button onclick="sendMessage()">Send</button>
+      </div>
+    </div>
+    <script>
+      const chatbotBody = document.getElementById("chatbot-body");
+      function toggleChatbot() {
+        chatbotBody.style.display =
+          chatbotBody.style.display === "flex" ? "none" : "flex";
+      }
+      function sendMessage() {
+        const input = document.getElementById("chatbot-input");
+        const messages = document.getElementById("chatbot-messages");
+        const userMsg = input.value.trim();
+        if (!userMsg) return;
+
+        // Add user's message
+        messages.innerHTML += `<div style="text-align:right; margin:8px 0;"><span style="background:#2a2d36;color:#fff;padding:8px 12px;border-radius:12px;display:inline-block;">${userMsg}</span></div>`;
+
+        // Fake AI reply (expand this with more intelligence!)
+        let aiReply = "I'm here to help!";
+
+        if (
+          userMsg.toLowerCase().includes("hello") ||
+          userMsg.toLowerCase().includes("hi")
+        )
+          aiReply = "Hello! How can I assist you today?";
+        else if (userMsg.toLowerCase().includes("cigar"))
+          aiReply = "Looking for cigars? Check out our selection in the shop!";
+        else if (
+          userMsg.toLowerCase().includes("accessory") ||
+          userMsg.toLowerCase().includes("lighter")
+        )
+          aiReply = "We have high-quality accessories for every cigar lover!";
+        else if (userMsg.toLowerCase().includes("gift"))
+          aiReply = "Need a gift? We offer gift certificates too!";
+        else if (userMsg.toLowerCase().includes("thank"))
+          aiReply = "You're welcome!";
+
+        setTimeout(() => {
+          messages.innerHTML += `<div style="text-align:left; margin:8px 0;"><span style="background:#efefef;color:#333;padding:8px 12px;border-radius:12px;display:inline-block;">${aiReply}</span></div>`;
+          messages.scrollTop = messages.scrollHeight;
+        }, 500);
+
+        input.value = "";
+      }
+    </script>
   </body>
   <script>
     document.querySelector(".trevijkat").addEventListener("click", () => {
